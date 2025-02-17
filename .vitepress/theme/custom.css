@@ -1,0 +1,19 @@
+@import url("https://fonts.bunny.net/css?family=catamaran:400,500,600,700&display=swap");
+
+:root {
+	--vp-c-brand-1: #C07FC0;
+	--vp-c-brand-2: #BE80BF;
+	--vp-c-brand-3: #D899D8;
+	--vp-code-color: var(--vp-c-indigo-1);
+	--vp-font-family-base: Catamaran, "Trebuchet MS", Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--vp-font-family-mono: "Cascadia Code", ui-monospace, Menlo, Monaco, Consolas, Liberation Mono, "Courier New", monospace;
+	--vp-home-hero-name-color: transparent;
+	--vp-home-hero-name-background: linear-gradient(120deg, #C07FC0 30%, #AE70AF);
+	--vp-home-hero-image-background-image: linear-gradient(-45deg, #D7B3D7 50%, #D3A5D4 50%); 
+	--vp-home-hero-image-filter: blur(50px);
+	scroll-behavior: smooth;
+}
+.VPImage.image-src {
+	transform: translate(-50%, -50%) scale(77%);
+	box-shadow: 7px 7px #c5a3c5;
+}
