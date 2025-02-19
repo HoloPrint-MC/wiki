@@ -14,7 +14,8 @@ No, HoloPrint does not disable achievements.
 ## I can't find the "Export" button...
 Use this [helper resource pack](https://github.com/SuperLlama88888/holoprint/raw/refs/heads/main/assets/structureBlockButtonAdderPack.mcpack) to show all Structure Block buttons.
 ## The armour stand doesn't show the hologram
-This should never happen! Please create an issue so this can be investigated and fixed.
+First, try disabling all other global resources and any resource packs applied on worlds, so the HoloPrint resource pack is the only resource pack applied.  
+If this issue persists, that's definitely a bug! Please create an issue so this can be investigated and fixed.
 ## Player controls don't work
 This is most likely due to Bugrock, which can break player controls when certain models called "attachables" are rendered on-screen. Attachables are items with custom 3D models, including armour, elytra, trident, shield, bow, etc.
 

@@ -29,7 +29,7 @@ export default defineConfig(withSidebar(withMermaid({
 				icon: "github", link: "https://github.com/HoloPrint-MC/wiki"
 			}
 		],
-		logo: "/assets/logo_288.png",
+		logo: "/logo_288.png",
 		editLink: {
 			pattern: "https://github.com/HoloPrint-MC/wiki/blob/main/:path",
 			text: "Edit this page on GitHub"
@@ -37,19 +37,14 @@ export default defineConfig(withSidebar(withMermaid({
 		search: {
 			provider: "local"
 		},
-		outline: "deep"
+		outline: "deep",
+		externalLinkIcon: true
 	},
 	markdown: {
 		image: {
 			lazyLoading: true
 		}
 	},
-	head: [
-		["link", {
-			rel: "icon",
-			href: "/wiki/favicon.ico"
-		}]
-	],
 	cleanUrls: true,
 	lastUpdated: true,
 	sitemap: {

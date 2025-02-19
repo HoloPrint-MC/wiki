@@ -7,7 +7,7 @@ hero:
   text: "Minecraft Bedrock building tool"
   tagline: Learn how to use HoloPrint
   image:
-    src: /assets/logo_288.png
+    src: /logo_288.png
     alt: HoloPrint logo
   actions:
     - theme: brand
