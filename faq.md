@@ -6,13 +6,16 @@ On iOS, you are unable to export structure files from Structure Blocks due to Ap
 
 HoloPrint has not been tested on console platforms.
 ## What Minecraft versions does HoloPrint work on?
-HoloPrint will work best in modern Minecraft Bedrock versions because it uses modern Minecraft resource pack features; however, generated HoloPrint resource packs can be used in versions as far back as 1.18. There is no guarantee all features will work!
+Generated HoloPrint resource packs will work best in modern Minecraft Bedrock versions because they use modern Minecraft resource pack features; however, they can be used in versions as far back as 1.18, but there is no guarantee all features will work!
+
+Structure files you use to make your packs can be from any Minecraft version. Even though block IDs from older versions are different to modern versions, HoloPrint automatically updates structures to the latest Minecraft version. 
 
 HoloPrint also works in Education Edition.
 ## Does HoloPrint disable achievements?
 No, HoloPrint does not disable achievements.
-## I can't find the "Export" button...
-Use this [helper resource pack](https://github.com/SuperLlama88888/holoprint/raw/refs/heads/main/assets/structureBlockButtonAdderPack.mcpack) to show all Structure Block buttons.
+## I can't find the “Export” button...
+Use this [helper resource pack](https://github.com/SuperLlama88888/holoprint/raw/refs/heads/main/assets/structureBlockButtonAdderPack.mcpack) to show all Structure Block buttons.  
+This is because the “Export” button is hidden by default on all platforms except desktop.
 ## The armour stand doesn't show the hologram
 First, try disabling all other global resources and any resource packs applied on worlds, so the HoloPrint resource pack is the only resource pack applied.  
 If this issue persists, that's definitely a bug! Please [create an issue](https://github.com/SuperLlama88888/holoprint/issues/new) so this can be investigated and fixed.
