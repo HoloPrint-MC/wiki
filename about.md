@@ -9,6 +9,10 @@
 				{
 					icon: "github",
 					link: "https://github.com/SuperLlama88888"
+				},
+				{
+					icon: "bluesky",
+					link: "https://superllama88888.bsky.social"
 				}
 			]
 		},

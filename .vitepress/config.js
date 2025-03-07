@@ -26,7 +26,8 @@ export default defineConfig(withSidebar(withMermaid({
 		],
 		socialLinks: [
 			{
-				icon: "github", link: "https://github.com/HoloPrint-MC/wiki"
+				icon: "github",
+				link: "https://github.com/SuperLlama88888/holoprint"
 			}
 		],
 		logo: "/logo_288.png",

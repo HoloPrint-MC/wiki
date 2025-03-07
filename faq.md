@@ -1,4 +1,6 @@
 # FAQ
+> [!TIP]
+> If your question isn't here, feel free to [create a discussion](https://github.com/SuperLlama88888/holoprint/discussions/new?category=q-a).
 ## What platforms does HoloPrint work on?
 HoloPrint fully works on PC (Windows/Linux/Mac) and Android.
 
@@ -34,7 +36,7 @@ No. However, you may be limited by the Structure Block size limit; in this case,
 ## How can I change player controls?
 Player controls can be customised on the website in the _Settings > In-game controls_ options.
 ## Why is it so laggy?
-First, check there aren't any hidden armour stands around where you're building; you can use [punch to activate](/punch-to-activate) mode to reduce the lag.Unfortunately, there is no high-performance way to render many ghost blocks in Bedrock Edition. Try splitting your structure up into multiple structure files, and [combining them into the same pack](/creating-packs#multiple-structure-files-in-one-pack).
+First, check there aren't any hidden armour stands around where you're building; you can use [punch to activate](/punch-to-activate) mode to reduce the lag. Unfortunately, there is no high-performance way to render many ghost blocks in Bedrock Edition. Try splitting your structure up into multiple structure files, and [combining them into the same pack](/creating-packs#multiple-structure-files-in-one-pack).
 ## Can I rename my control items?
 Absolutely! Renaming items has no effect on player controls.
 ## Does HoloPrint keep my structure file?
