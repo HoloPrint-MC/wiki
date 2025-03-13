@@ -1,17 +1,20 @@
-# Creating packs
-> [!TIP]
-> On Android the Structure Block export button is hidden; please use [this pack](https://github.com/SuperLlama88888/holoprint/raw/refs/heads/main/assets/structureBlockButtonAdderPack.mcpack) to add it back.
-1. In a creative world, use a Structure Block to export a `.mcstructure` file. To get a Structure Block, run the command `/give @s structure_block`.  
+# 創建材質包 Creating packs
+> [!提示]
+> 請使用[此材質包](https://github.com/SuperLlama88888/holoprint/raw/refs/heads/main/assets/structureBlockButtonAdderPack.mcpack) 以強制顯示安卓裝置上默認隱藏的結構輸出按鈕
+1. 在一個創造模式世界中使用 `/give @s structure_block` 命令取得結構方塊，並輸出 `.mcstructure` 文件
 ![Give Structure Block command](/assets/giveStructureBlockCommand.png)  
 ![Structure Block exporting](/assets/structureBlockExporting.png)
-2. Go to [https://holoprint-mc.github.io](https://holoprint-mc.github.io), select your `.mcstructure` file, and tweak settings.  
+
+2. 前往 [https://holoprint-mc.github.io](https://holoprint-mc.github.io) 並選擇你的 `.mcstructure` 文件，並按照需求調整材質包的設置。
 ![Pack generation screen](/assets/packGenerationScreen.png)
-> [!TIP]
-> You can enter multiple structure files to put into the same pack, or drag-and-drop files to add them!
-3. Generate and download your resource pack (`.mcpack`).  
+> [!提示]
+> 你可以將多個結構文件導入到單一投影材質包之中，只需要拖拽或選取即可導入。
+
+3. 生成並下載你的投影材質包 (`.mcpack`).  
 ![Resource pack active](/assets/resourcePackActive.png)
-4. Apply your resource pack in your survival world/server and place an armour stand down.  
+
+5. 啟用你的材質包並在你的世界中放置盔甲架
 ![Placing armour stand](/assets/placingArmourStand.gif)
 
-## Multiple structure files in one pack
-Simply select multiple files in the file selector. You can [switch between different structures](/hologram-controls#change-structure) in-game.
+## 多結構投影 Multiple structure files in one pack
+你只需要在選取文件時選取多個文件即可，你可以通過遊戲內的[切換結構顯示](/hologram-controls#change-structure)功能切換成你想要查看的投影結構。
