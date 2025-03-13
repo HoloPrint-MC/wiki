@@ -1,4 +1,4 @@
-# About HoloPrint
+# 關於
 HoloPrint 是一個能夠將MCBE結構文件（.mcstructure）文件轉換成投影材質包的網站。此項目以 [Structura](https://github.com/RavinMaddHatter/Structura) 為基礎並且旨在以材質包方式為基岩版玩家提供類Java版中 [Litematica](https://github.com/maruohon/litematica)與[Schematica](https://github.com/Lunatrius/Schematica) 的體驗。
 
 Holoprint 已針對最新版本的MCBE作優化，但部分功能依然能在舊版本上使用。
