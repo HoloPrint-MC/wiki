@@ -35,19 +35,19 @@
 </script>
 
 # About HoloPrint
-HoloPrint is a web app that converts MCBE structure files into resource packs showing holograms of builds. It builds off the work of [Structura](https://github.com/RavinMaddHatter/Structura), a similar project. Both Structura and HoloPrint aim to recreate the experience of Java Edition mods like [Litematica](https://github.com/maruohon/litematica) and [Schematica](https://github.com/Lunatrius/Schematica) for Bedrock Edition users through resource packs.
+HoloPrint 是一個能夠將MCBE結構文件（.mcstructure）文件轉換成投影材質包的網站。此項目以 [Structura](https://github.com/RavinMaddHatter/Structura) 為基礎並且旨在以材質包方式為基岩版玩家提供類Java版中 [Litematica](https://github.com/maruohon/litematica)與[Schematica](https://github.com/Lunatrius/Schematica) 的體驗。
 
-HoloPrint is optimised for playing on the latest version of Minecraft, but some features will still work in older versions.
+Holoprint 已針對最新版本的MCBE作優化，但部分功能依然能在舊版本上使用。
 
-HoloPrint is primarily coded in JavaScript and JSON.
+HoloPrint 主要以 JavaScript 與 JSON 編碼。
 
 <VPTeamMembers size="small" :members="contributors"/>
 
-## Inspiration from Structura
-[Structura](https://github.com/RavinMaddHatter/Structura), made by [RavinMaddHatter](https://github.com/RavinMaddHatter), is an older project that was the first to recreate the Litematica experience for Bedrock Edition. However, since it is written in Python, it's harder to access for smartphone players and cannot be run on all devices, requiring wrapper services such as a Discord bot to upload structure files to. Furthermore, Mojang has made many technical changes since Structura's first release such as changing block IDs and block states, meaning not all blocks from modern versions will work correctly. This, coupled with Structura not being data-driven and requiring hardcoded patches, makes it hard for Structura to keep up with modern Minecraft versions.
+## Structura 與緣起
+過往由 [RavinMaddHatter](https://github.com/RavinMaddHatter) 所開發的 [Structura](https://github.com/RavinMaddHatter/Structura) 是第一個在基岩版上塑造類 Litematica 的方案。而由於其編碼語言為Python，手機用家有時候並不能夠在自己的裝置上運行，並且需要依靠如 Discord 機器人的代理服務才能順利使用。再者，Mojang 在 Structura 第一個版本釋出後進行了多項技術性更新，比如說改變方塊的ID和方塊狀態，這代表了新版本中中的部分方塊未必能正確的顯示，同時因為 Structura 是需要依賴硬編碼修復的，使得其更新難度更大。
 
-HoloPrint solves these issues by being written as a web app, meaning anybody with a modern internet browser can use it. HoloPrint is almost fully data-driven and more reliant on data generated from Bedrock Edition, meaning updates to Minecraft can be quickly implemented into HoloPrint. HoloPrint also uses [pmmp/BedrockBlockUpgradeSchema](https://github.com/pmmp/BedrockBlockUpgradeSchema) to automatically update old structures to the latest Minecraft version, which means only a single version has to be maintained.
+通過網站服務， HoloPrint 可以很好的解決上述的問題，並允許所有擁有瀏覽器的人都能夠簡單的使用，同時由於 HoloPrint 是純數據驅動和更依靠基岩版中生成的數據，代表了遊戲中的更新能夠更快的響應在 HoloPrint之中。另外， HoloPrint也使用了 [pmmp/BedrockBlockUpgradeSchema](https://github.com/pmmp/BedrockBlockUpgradeSchema) 以自動化更新舊版本中輸出的結構到最新的遊戲版本，因此只需要維護單一版本便足矣。
 
-Additionally, HoloPrint utilises more features of resource packs, allowing for a more enjoyable and customisable experience. You can learn about in-game features in the [Hologram controls](/hologram-controls) page.
+HoloPrint也很好的運用了材質包中的不同功能，並允許更方便且客製化的使用，你可以通過訪問 [Hologram controls](/hologram-controls) 頁面以查詢更多。
 
-Most of HoloPrint was written from scratch; only one file ([`data/blockShapes.json`](https://github.com/SuperLlama88888/holoprint/blob/main/data/blockShapes.json)) was taken from Structura, and it has been heavily modified.
+HoloPrint 中的大部分內容都是從頭開始開發的，只有一個文件（[`data/blockShapes.json`](https://github.com/SuperLlama88888/holoprint/blob/main/data/blockShapes.json)）是從 Structura 繼承，並且經過大量的修改。
