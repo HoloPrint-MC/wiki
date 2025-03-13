@@ -15,4 +15,4 @@ It can be quite confusing, so I recommend playing around with it a bit and seein
 ## 3. Less important: Structure Block Button Adder pack translations
 In this repository, there's a small resource pack which forces all structure block buttons to show, regardless of device. This is needed for Android players as the export button is hidden by default. Translations for the pack name and description would also be appreciated.
 
-Follow the same steps as translating [the main in-game translations](#2-in-game-translations), except that everything belongs in the `assets/structureBlockButtonAdderPack/texts` folder.
+Follow the same steps as translating [the main in-game translations](#_2-in-game-translations), except that everything belongs in the `assets/structureBlockButtonAdderPack/texts` folder.
