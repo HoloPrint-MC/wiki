@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "HoloPrint 維基"
-  text: "基岩版建築工具"
-  tagline: 學習如何使用 HoloPrint
+  name: "HoloPrint 维基百科"
+  text: "基岩版建筑工具"
+  tagline: 学习如何使用 HoloPrint
   image:
     src: /logo_288.png
     alt: HoloPrint logo
@@ -18,16 +18,16 @@ hero:
       link: /faq
 
 features:
-  - title: 關於玩家控制
-    details: 遙控你的投影
+  - title: 关于玩家控制
+    details: 遥控你的投影
     link: /hologram-controls
     icon: 🕹️
-  - title: 支援多個平台
-    details: 僅用瀏覽器就可以生成投影
+  - title: 支持多个平台
+    details: 仅用浏览器就可以生成投影
     link: /faq#what-platforms-does-holoprint-work-on
     icon: 📱
-  - title: 高度自由體驗
-    details: 客製化你的材質包和建築體驗
+  - title: 高度自由的体验
+    details: 客制化你的材质包和复刻建筑体验
     link: /pack-creation-options.md
     icon: 🔧
 ---

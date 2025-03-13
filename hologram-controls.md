@@ -1,86 +1,86 @@
 # 投影控制
-手持不同物品使用攻擊可以進行投影控制，而由於基岩版的獨特性，其他玩家的行動也會影響投影的渲染狀態
+手持不同物品使用攻击可以进行投影控制，而由于基岩版的独特性，其他玩家的行动也会影响投影的渲染状态
 
 > [!警告]
-> 玩家行為控制並不一定能生效，但[盔甲架互動](#armour-stand-controls)是最可靠的方式
-> 關閉紙娃娃可以提高玩家行為控制的可靠性
+> 玩家行為控制并不一定能生效，但[盔甲架互动](#armour-stand-controls)是最可靠的方式
+> 关闭纸娃娃可以提高玩家行为控制的可靠性
 
-特別鳴謝 **kizoku246** 提供了下面照片裏的房子
+特别鸣谢 **kizoku246** 提供了下面照片里的房子
 
-## 啟用渲染 Toggle rendering
-默認：紅磚（Brick）
+## 启用渲染 Toggle rendering
+默认：红砖（Brick）
 
-此功能可以顯示或隱藏投影，大部分的投影控制在隱藏投影時無法生效。
+此功能可以显示或隐藏投影，大部分的投影控制在隐藏投影时无法生效。
 ![Toggling rendering](/assets/togglingRendering.gif)
 
 ## 更改透明度 Change transparency
-默認：紫水晶（蹲下以減少，站著以增加）
+默认：紫水晶（蹲下以减少，站著以增加）
 
-此功能可以每次調整10%的透明度，而調整範圍為40%到100%
+此功能可以每次调整10%的透明度，而调整范围為40%到100%
 ![Changing transparency](/assets/changingTransparency.gif)
 
-## 調整層數 Change layer
-默認：羽毛（蹲下以減低，站著以增高），或直接調整盔甲架的姿勢
+## 调整层数 Change layer
+默认：羽毛（蹲下以减低，站著以增高），或直接调整盔甲架的姿势
 
-此功能會顯示單一層數並且隱藏其他層數，對於生存逐層復刻建築非常有用。
+此功能会显示单一层数并且隐藏其他层数，对于生存逐层复刻建筑非常有用。
 ![Changing layer](/assets/changingLayer.gif)
 
-## 移動投影 Move hologram
-默認：木棍
-此功能能夠在不移動盔甲架的情況下移動投影。
+## 移动投影 Move hologram
+默认：木棍
+此功能能够在不移动盔甲架的情况下移动投影。
 
 ![Moving hologram](/assets/movingHologram.gif)
 
-## 旋轉投影 Rotate hologram
-默認：銅錠
-此功能可以將投影以順時針旋轉90°，而蹲下則可以逆時針旋轉90°。
+## 旋转投影 Rotate hologram
+默认：铜锭
+此功能可以将投影以顺时针旋转90°，而蹲下则可以逆时针旋转90°。
 
 ![Rotating hologram](/assets/rotatingHologram.gif)
 
-## 方塊檢查 Block validation
-默認：鐵錠
+## 方块检查 Block validation
+默认：铁锭
 
-此功能可以檢查投影中的所有方塊是否被正確放置，同時並不會檢查空氣方塊和方塊狀態，若投影只展示單一層數，則只會檢查該層數的方塊。
+此功能可以检查投影中的所有方块是否被正确放置，同时并不会检查空气方块和方块状态，若投影只展示单一层数，则只会检查该层数的方块。
 ![Validating structure](/assets/validatingStructure.gif)
 
-## 方塊列表 Material list
-默認：Tab按鈕（鍵盤），書按鈕（觸屏）
+## 方块列表 Material list
+默认：Tab按钮（键盘），书按钮（触屏）
 
-此功能可以顯示一個投影中方塊的完整列表和其數量，若投影由多個結構組成，方塊列表則會將所有結構中的方塊統一計算，另外也請注意物品圖標有可能顯示錯誤的方塊。
+此功能可以显示一个投影中方块的完整列表和其数量，若投影由多个结构组成，方块列表则会将所有结构中的方块统一计算，另外也请注意物品图标有可能显示错误的方块。
 ![Material list](/assets/materialList.gif)
 
-## 覆蓋色調 Toggle overlay tint
-默認：白色染料
+## 覆盖色调 Toggle overlay tint
+默认：白色染料
 
-此功能能夠調整投影的整體色調以分辨真實方塊與投影中的方塊，而顏色和能見度可以在 _Settings > Textures_ 中修改。
+此功能能够调整投影的整体色调以分辨真实方块与投影中的方块，而颜色和能见度可以在 _Settings > Textures_ 中修改。
 ![Toggle overlay tint](/assets/togglingTint.gif)
 
-## 層數模式 Change layer mode
-默認：打火石
+## 层数模式 Change layer mode
+默认：打火石
 
-此功能可以開啟或關閉顯示當前顯示層數下方的所有層數。
+此功能可以𫔭啟或关闭显示当前显示层数下方的所有层数。
 ![Change layer mode](/assets/changingLayerMode.gif)
 
-## 換個結構 Change structure
-默認：箭矢，或攻擊空手的盔甲架
+## 换个结构 Change structure
+默认：箭矢，或攻击空手的盔甲架
 
-此功能可以在多個結構之間切換，站著可以換成下一個，蹲下則是上一個。
+此功能可以在多个结构之间切换，站著可以换成下一个，蹲下则是上一个。
 ![Changing structure](/assets/changingStructure.gif)
 
-## 儲存設定 Save hologram settings
-默認：紙
+## 储存设定 Save hologram settings
+默认：纸
 
-此功能讓所有盔甲架在三十秒內儲存他們當前的顯示狀態，此功能會在玩家距離盔甲架55格以外的距離自動啟動。若盔甲架在儲存時被卸載則會在重新加載的時候載入上次保存的設定（包括切換維度、離開世界或走的太遠）。備份數量有限並默認為10，可以通過 _Settings > Advanced > Backup slot count_ 設置。
+此功能让所有盔甲架在三十秒内储存他们当前的显示状态，此功能会在玩家距离盔甲架55格以外的距离自动啟动。若盔甲架在储存时被卸载则会在重新加载的时候载入上次保存的设定（包括切换维度、离𫔭世界或走的太远）。备份数量有限并默认為10，可以通过 _Settings > Advanced > Backup slot count_ 设置。
 ![Saving backup](/assets/savingBackup.gif)
 
 ## 直接控制 Armour stand controls
-默認：給予物品或攻擊
+默认：给予物品或攻击
 
-玩家控制在某些情況之下不太穩定，因此所有玩家控制都可以通過給予盔甲架該物品，然後攻擊來實現相應的功能。
+玩家控制在某些情况之下不太稳定，因此所有玩家控制都可以通过给予盔甲架该物品，然后攻击来实现相应的功能。
 ![Armour stand controls](/assets/armourStandControls.gif)
 
-## 關閉控制 Disable player controls
-默認：骨頭
+## 关闭控制 Disable player controls
+默认：骨头
 
-通過給予盔甲架骨頭可以關閉控制投影的功能，讓你能夠單獨調整單一盔甲架而不會影響到其他投影結構
+通过给予盔甲架骨头可以关闭控制投影的功能，让你能够单独调整单一盔甲架而不会影响到其他投影结构
 ![Disabling player controls](/assets/disablingPlayerControls.gif)
