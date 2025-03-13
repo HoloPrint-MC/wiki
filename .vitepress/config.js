@@ -9,7 +9,7 @@ const navLinks = {
 };
 const additionalLanguages = {
 	zh: {
-		label: "中國傳統",
+		label: "繁體中文",
 		siteTitle: "HoloPrint Wiki",
 		navLinks: {
 			"Home": "/",
