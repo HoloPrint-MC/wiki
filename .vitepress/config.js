@@ -10,7 +10,46 @@ const navLinks = {
 const additionalLanguages = {
 	zh: {
 		label: "繁體中文",
-		siteTitle: "HoloPrint Wiki",
+		siteTitle: "HoloPrint 百科",
+		navLinks: {
+			"Home": "/",
+			"Tutorial": "/creating-packs",
+			"Try it out": "https://holoprint-mc.github.io"
+		},
+		outline: "On this page",
+		edit: "Edit this page on GitHub",
+		lastUpdated: "Last updated",
+		previousPage: "Previous page",
+		nextPage: "Next page",
+		darkModeSwitchLabel: "Appearance",
+		lightModeSwitchTitle: "Switch to light theme",
+		darkModeSwitchTitle: "Switch to dark theme",
+		sidebarMenuLabel: "Menu",
+		search: { // these ones are hardly used, don't worry about doing them all
+			button: {
+				buttonText: "Search",
+				buttonAriaLabel: "Search"
+			},
+			modal: {
+				displayDetails: "Display detailed list",
+				resetButtonTitle: "Reset search",
+				backButtonTitle: "Close search",
+				noResultsText: "No results for",
+				footer: {
+					selectText: "to select",
+					selectKeyAriaLabel: "enter",
+					navigateText: "to navigate",
+					navigateUpKeyAriaLabel: "up arrow",
+					navigateDownKeyAriaLabel: "down arrow",
+					closeText: "to close",
+					closeKeyAriaLabel: "escape"
+				}
+			}
+		}
+	},
+	"zh-cn": {
+		label: "简体中文",
+		siteTitle: "HoloPrint 维基百科",
 		navLinks: {
 			"Home": "/",
 			"Tutorial": "/creating-packs",

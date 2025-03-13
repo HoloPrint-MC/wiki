@@ -7,13 +7,11 @@ HoloPrint 是一個開源且歡迎貢獻的項目，你可以在 [SuperLlama8888
 ## 新增方塊 Adding new blocks
 所有方塊模型都以 JSON 文件儲存，並且可以在 `data` 文件夾中找到相應的數據，這裏一共分成四種文件類型：
 - `blockShapes.json` 控制方塊的形狀，所有相同形狀的方塊會使用同一個模型，並且大部分時候內容相同
-
 - `blockShapeGeos.json` 儲存了每個方塊模型的實際形態，而座標代表每個像素的位置，並以（0,0,0）代表最前面、最下方、最左邊的像素。這邊建議查詢 [Java 版方塊模型](https://mcasset.cloud/1.21.3/assets/minecraft/models/block) 作參考
-
 - `blockStateDefinitions.json` 儲存控制材質與旋轉的定義
   - 所有材質變體是來自於[原版材質包](https://github.com/Mojang/bedrock-samples/tree/preview/resource_pack)中的 `textures/terrain_texture.json` 文件，部分方塊單以方塊狀態就可以判斷其使用的材質，而部分方塊有固定的材質變體，這種情況則需要在 `blockEigenvariants.json` 之中宣告。
   - 全方塊旋轉也被方塊狀態所定義，這裏會涉及到大量方塊狀態，而且相同的方塊狀態也不代表在不同方塊上有相同的表現，在使用的時候請務必小心
-  - `blockEigenvariants.json` 儲存了方塊的固定變體，這些方塊會常態性的使用特定的材質變體並不依賴方塊狀態，下面是其中一個例子
+- `blockEigenvariants.json` 儲存了方塊的固定變體，這些方塊會常態性的使用特定的材質變體並不依賴方塊狀態，下面是其中一個例子
   ```json
   {
   	"wooden_door": 0,

@@ -28,6 +28,17 @@
 			]
 		},
 		{
+			avatar: "https://avatars.githubusercontent.com/u/112787582?v=4",
+			name: "Elec_Glaciar",
+			title: "Translator",
+			links: [
+				{
+					icon: "github",
+					link: "https://github.com/Elec-Glacier"
+				}
+			]
+		},
+		{
 			avatar: "https://avatars.githubusercontent.com/u/125613427?v=4",
 			name: "guobao2333",
 			title: "Translator",
