@@ -1,4 +1,4 @@
-# 常見問題 FAQ
+# 常見問題
 > [!TIP]
 > 若你找不到想要的解答，你可以在[討論](https://github.com/SuperLlama88888/holoprint/discussions/new?category=q-a)中提出
 

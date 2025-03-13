@@ -3,18 +3,18 @@
 layout: home
 
 hero:
-  name: "HoloPrint 維基"
-  text: "基岩版建築工具"
+  name: "HoloPrint 百科"
+  text: "基岩版復刻建築工具"
   tagline: 學習如何使用 HoloPrint
   image:
     src: /logo_288.png
     alt: HoloPrint logo
   actions:
     - theme: brand
-      text: Tutorial
+      text: 教程
       link: /creating-packs
     - theme: alt
-      text: FAQ
+      text: 常見問題
       link: /faq
 
 features:
