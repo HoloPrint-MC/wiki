@@ -1,5 +1,5 @@
 # 貢獻 Contributing
-HoloPrint 是一個開源切歡迎貢獻的項目，你可以在 [SuperLlama88888/holoprint](https://github.com/SuperLlama88888/holoprint) 中找到源碼。並且由於 HoloPrint 是近乎數據驅動的，代表你並不需要曉得變成也可以增加新方塊的支持。
+HoloPrint 是一個開源且歡迎貢獻的項目，你可以在 [SuperLlama88888/holoprint](https://github.com/SuperLlama88888/holoprint) 中找到源碼。並且由於 HoloPrint 是近乎數據驅動的，代表你並不需要曉得變成也可以增加新方塊的支持。
 
 ## 代碼編輯 Code editor
 強烈建議使用VSCode，或者任何能夠顯示基於 JSON schmas 和 JSDoc 的提示。按下項目主頁的 `.` 可以使用線上版 VSCode。
