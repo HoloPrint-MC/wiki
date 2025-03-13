@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "HoloPrint Wiki"
-  text: "Minecraft Bedrock building tool"
-  tagline: Learn how to use HoloPrint
+  name: "HoloPrint 維基"
+  text: "基岩版建築工具"
+  tagline: 學習如何使用 HoloPrint
   image:
     src: /logo_288.png
     alt: HoloPrint logo
@@ -18,16 +18,16 @@ hero:
       link: /faq
 
 features:
-  - title: Learn about player controls
-    details: Remotely control the hologram.
+  - title: 關於玩家控制
+    details: 遙控你的投影
     link: /hologram-controls
     icon: 🕹️
-  - title: Cross-platform compatibility
-    details: Works fully within your web browser.
+  - title: 支援多個平台
+    details: 僅用瀏覽器就可以生成投影
     link: /faq#what-platforms-does-holoprint-work-on
     icon: 📱
-  - title: Highly configurable
-    details: Customise your resource pack and your building experience.
+  - title: 高度自由體驗
+    details: 客製化你的材質包和建築體驗
     link: /pack-creation-options.md
     icon: 🔧
 ---

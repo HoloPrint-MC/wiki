@@ -1,15 +1,19 @@
-# Contributing
-HoloPrint is open-source and open to contributions, and can be found on GitHub at [SuperLlama88888/holoprint](https://github.com/SuperLlama88888/holoprint). HoloPrint is nearly fully data-driven, meaning you don't need to know how to code to add support for new blocks.
-## Code editor
-It is highly recommended to use VSCode, or a code editor which can show hints based on JSON schemas and JSDoc comments. To use VSCode online, you can press `.` on the repository's homepage.
-## Adding new blocks
-All block models are stored in JSON. This data is available in the `data` folder. There are four main files:
-- `blockShapes.json` controls which blocks use which block shapes. All blocks with the same block shape will use the same model, and mostly appear the same.
-- `blockShapeGeos.json` contains the actual models for each block shape. Coordinates are in pixels (1/16 of a block) with (0, 0, 0) being the front-bottom-left corner of where the block will be. It is recommended to use the [Java Edition block models](https://mcasset.cloud/1.21.3/assets/minecraft/models/block) as a reference.
-- `blockStateDefinitions.json` contains definitions for block states that control texture variants and rotations.
-  - Texture variants are from `textures/terrain_texture.json` in the [vanilla resource pack](https://github.com/Mojang/bedrock-samples/tree/preview/resource_pack), in which multiple images are listed for a texture. Some block states determine which texture variant is used, and they are in this file. However, some blocks have a fixed texture variant, in which case you'll need to declare the eigenvariant in `blockEigenvariants.json`.
-  - Whole block rotations are also defined by block states. There are many block states that control rotations, and some blocks that use the same block state are rotated differently, so be careful when editing these.
-- `blockEigenvariants.json` contains fixed texture variants for blocks. These blocks always use a specific texture variant, regardless of block states, and are put in here. For example:
+# 貢獻 Contributing
+HoloPrint 是一個開源且歡迎貢獻的項目，你可以在 [SuperLlama88888/holoprint](https://github.com/SuperLlama88888/holoprint) 中找到源碼。並且由於 HoloPrint 是近乎數據驅動的，代表你並不需要曉得變成也可以增加新方塊的支持。
+
+## 代碼編輯 Code editor
+強烈建議使用VSCode，或者任何能夠顯示基於 JSON schmas 和 JSDoc 的提示。按下項目主頁的 `.` 可以使用線上版 VSCode。
+
+## 新增方塊 Adding new blocks
+所有方塊模型都以 JSON 文件儲存，並且可以在 `data` 文件夾中找到相應的數據，這裏一共分成四種文件類型：
+- `blockShapes.json` 控制方塊的形狀，所有相同形狀的方塊會使用同一個模型，並且大部分時候內容相同
+
+- `blockShapeGeos.json` 儲存了每個方塊模型的實際形態，而座標代表每個像素的位置，並以（0,0,0）代表最前面、最下方、最左邊的像素。這邊建議查詢 [Java 版方塊模型](https://mcasset.cloud/1.21.3/assets/minecraft/models/block) 作參考
+
+- `blockStateDefinitions.json` 儲存控制材質與旋轉的定義
+  - 所有材質變體是來自於[原版材質包](https://github.com/Mojang/bedrock-samples/tree/preview/resource_pack)中的 `textures/terrain_texture.json` 文件，部分方塊單以方塊狀態就可以判斷其使用的材質，而部分方塊有固定的材質變體，這種情況則需要在 `blockEigenvariants.json` 之中宣告。
+  - 全方塊旋轉也被方塊狀態所定義，這裏會涉及到大量方塊狀態，而且相同的方塊狀態也不代表在不同方塊上有相同的表現，在使用的時候請務必小心
+  - `blockEigenvariants.json` 儲存了方塊的固定變體，這些方塊會常態性的使用特定的材質變體並不依賴方塊狀態，下面是其中一個例子
   ```json
   {
   	"wooden_door": 0,
@@ -21,8 +25,9 @@ All block models are stored in JSON. This data is available in the `data` folder
   	"iron_door": 6
   }
   ```
-  All doors link to the same texture in `terrain_texture.json`, so eigenvariants have to be used to specify that oak (wooden) doors use the first texture, spruce doors use the second, etc.
-## Other data files
+  所有門都連接到 `terrain_texture.json` 中的同一個材質，所以需要使用參數（eigenvariants）來指定使用的材質類型。
+
+## Other data files （下面的我不翻譯了，我看不懂，你看不懂的話也建議你別碰）
 In addition to the files for block models, there are two other JSON files in the `data` folder:
 - `textureAtlasMappings.json` contains a variety of patches and mappings for specific blocks, many of which are caused by ~~Bugrock~~ Bedrock being Bedrock. However, there are some other more meaningful things in there, such as the `blocks_to_use_carried_textures` array, which lists blocks that should use their carried textures from `blocks.json`.  
   If using an editor like VSCode, it is recommended to hover over each property; the tooltips will explain in more detail what does what.

@@ -1,8 +1,8 @@
-# Punch to activate mode
-By default, all armour stands will show the hologram. This can cause lag and annoyance if playing in an area with lots of armour stands placed already.
+# 打一下動一下 Punch to activate mode
+在默認情況下，所有盔甲架都會渲染投影，但這可能會導致本身存在的盔甲架產生極端卡頓和滋擾。
 
-To change this behaviour, in the resource pack settings, you can select the "Punch to activate" subpack. This will make armour stands hide the hologram until you interact with them by punching.
+你可以通過在材質包設定中的 "Punch to activate" 子設定來開啟此功能，使投影只會在你攻擊盔甲架後才會顯示。
 
 ![Punch to activate subpack selected](/assets/punchToActivateSubpack.png)
 
-In this mode, newly-placed armour stands won't show anything until punched. This allows you to interact normally with armour stands and select only the ones you want to show a hologram.
+在這個模式下，新放置的盔甲架直到你揍他以前都不會顯示任何東西，也讓你可以正常的與你想要的盔甲架進行甜蜜互動。
