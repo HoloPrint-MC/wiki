@@ -179,7 +179,7 @@ export default defineConfig(withMermaid({
 				Object.keys(additionalLanguages).forEach(lang => {
 					let slashBeforeLang = "/" + lang;
 					if(state.env.relativePath.startsWith(lang + "/")) {
-						state.env.frontmatter.features?.forEach(feature => {
+						[...state.env.frontmatter.hero?.actions ?? [], ...state.env.frontmatter.features ?? []].forEach(feature => {
 							if(feature.link.startsWith("/") && !feature.link.startsWith(slashBeforeLang)) {
 								feature.link = slashBeforeLang + feature.link;
 							}
