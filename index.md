@@ -28,6 +28,6 @@ features:
     icon: 📱
   - title: Highly configurable
     details: Customise your resource pack and your building experience.
-    link: /pack-creation-options.md
+    link: /pack-creation-options
     icon: 🔧
 ---

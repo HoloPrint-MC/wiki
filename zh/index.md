@@ -24,10 +24,10 @@ features:
     icon: 🕹️
   - title: 支援多個平台
     details: 僅用瀏覽器就可以生成投影
-    link: /faq#what-platforms-does-holoprint-work-on
+    link: /faq#holoprint的運作平台
     icon: 📱
   - title: 高度自由體驗
     details: 客製化你的材質包和建築體驗
-    link: /pack-creation-options.md
+    link: /pack-creation-options
     icon: 🔧
 ---

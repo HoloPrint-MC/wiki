@@ -17,4 +17,4 @@
 ![Placing armour stand](/assets/placingArmourStand.gif)
 
 ## 多结构投影 Multiple structure files in one pack
-你只需要在选取文件时选取多个文件即可，你可以通过游戏内的[切换结构显示](/hologram-controls#change-structure)功能切换成你想要查看的投影结构。
+你只需要在选取文件时选取多个文件即可，你可以通过游戏内的[切换结构显示](/hologram-controls#换个结构-change-structure)功能切换成你想要查看的投影结构。
