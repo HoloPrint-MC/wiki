@@ -17,3 +17,6 @@
 	transform: translate(-50%, -50%) scale(77%);
 	box-shadow: 7px 7px #c5a3c5;
 }
+main.main img {
+	margin: auto;
+}
