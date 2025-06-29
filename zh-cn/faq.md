@@ -5,6 +5,7 @@
 ## HoloPrint的运作平台
 你可以在电脑（Windows/ Linux/ Mac）与安卓装置享受完整的 HoloPrint 功能。
 iOS装置上的结构输出功能被苹果禁止，但你依然可以通过传送结构文件（.mcstructure）到你的装置上来制作投影材质包。
+HoloPrint works on Safari 16.4 and later.
 HoloPrint 未在主机平台上进行任何测试。
 
 ## HoloPrint的运作版本

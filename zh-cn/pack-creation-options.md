@@ -21,13 +21,13 @@ HoloPrint提供一系列不同的选项，助你客製化你的材质包。
 #### Player controls
 Enables/Disables [controlling the hologram](/hologram-controls) by attacking with specific items.
 #### Material list
-Enables/Disables the in-game [material list](/hologram-controls#material-list), accessible by pressing the tab key or the book icon.
+Enables/Disables the in-game [material list](/hologram-controls#方块列表-material-list), accessible by pressing the tab key or the book icon.
 #### Retexture control items
 Enables/Disables icons overlayed on the hologram control items representing how they control the hologram.  
-![Retextured control items](assets/retexturedControlItems.png)
+![Retextured control items](/assets/retexturedControlItems.png)
 #### Rename control items
 Enables/Disables the labels displayed underneath the names of hologram control items.  
-![Renamed control items](assets/renamedControlItems.png)
+![Renamed control items](/assets/renamedControlItems.png)
 
 ### 忽略方块 Ignored blocks
 输入在投影之中需要被忽略的方块ID，并用空格隔开

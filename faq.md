@@ -6,6 +6,8 @@ HoloPrint fully works on PC (Windows/Linux/Mac) and Android.
 
 On iOS, you are unable to export structure files from Structure Blocks due to Apple's restrictions; however, you will be able to create and use a HoloPrint resource pack if you send a structure file to your iOS device.
 
+HoloPrint works on Safari 16.4 and later.
+
 HoloPrint has not been tested on console platforms.
 ## What Minecraft versions does HoloPrint work on?
 Generated HoloPrint resource packs will work best in modern Minecraft Bedrock versions because they use modern Minecraft resource pack features; however, they can be used in versions as far back as 1.18, but there is no guarantee all features will work!
