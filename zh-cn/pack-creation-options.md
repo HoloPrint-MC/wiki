@@ -15,15 +15,30 @@ HoloPrint提供一系列不同的选项，助你客製化你的材质包。
 ### 游戏内控制 In-game controls
 [控制投影](/hologram-controls)的物品可以修改，并且可以让多个物品设为同一功能，也可以使用[Item tags](https://minecraft.wiki/w/Item_tag_(Bedrock_Edition))作控制之用。
 
-### 生成动画 Spawn animation
+### Features
+#### 生成动画 Spawn animation
 开启或关闭放下盔甲架或开始渲染投影时的动画，大型投影的动画可以导致游戏卡顿。
+#### Player controls
+Enables/Disables [controlling the hologram](/hologram-controls) by attacking with specific items.
+#### Material list
+Enables/Disables the in-game [material list](/hologram-controls#material-list), accessible by pressing the tab key or the book icon.
+#### Retexture control items
+Enables/Disables icons overlayed on the hologram control items representing how they control the hologram.  
+![Retextured control items](assets/retexturedControlItems.png)
+#### Rename control items
+Enables/Disables the labels displayed underneath the names of hologram control items.  
+![Renamed control items](assets/renamedControlItems.png)
 
 ### 忽略方块 Ignored blocks
 输入在投影之中需要被忽略的方块ID，并用空格隔开
 
 ### 进阶控制 Advanced
+#### Initial offset
+Controls the initial offset of the hologram from the armour stand, in X/Y/Z coordinates. Useful with large structures.
 #### 备份栏数量 Backup slot count
 控制储存投影设置[储存投影设置](/hologram-controls#储存设定-save-hologram-settings)的储存栏位数量
+#### Control item texture scale
+If you play with a non-power-of-two resource pack (this means anything that isn't 8x, 16x, 32x, 64x, etc.), the [retextured control items](#retexture-control-items) can cause the original item textures to be distorted. If this happens, try changing the control item texture scale to 2, 4, etc. It will cause a slightly higher pack size.
 
 #### 透明度模式 Opacity mode
 若设定为 `In-game controls` 则开启游戏内[调整透明度](/hologram-controls#更改透明度-change-transparency)的功能
