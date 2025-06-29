@@ -1,6 +1,6 @@
 # Creating packs
 > [!TIP]
-> On Android the Structure Block export button is hidden; please use [this pack](https://github.com/SuperLlama88888/holoprint/raw/refs/heads/main/assets/structureBlockButtonAdderPack.mcpack) to add it back.
+> On Android the Structure Block export button is hidden; please use [this pack](https://holoprint-mc.github.io/exportbutton) to add it back.
 1. In a creative world, use a Structure Block to export a `.mcstructure` file. To get a Structure Block, run the command `/give @s structure_block`.  
 ![Give Structure Block command](/assets/giveStructureBlockCommand.png)  
 ![Structure Block exporting](/assets/structureBlockExporting.png)

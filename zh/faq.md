@@ -17,7 +17,7 @@ HoloPrint 在教育版也同樣生效。
 HoloPrint只是一個材質包，並不會影響到遊戲成就。
 
 ## 這結構輸出按鈕跑哪了？
-使用此[材質包](https://github.com/SuperLlama88888/holoprint/raw/refs/heads/main/assets/structureBlockButtonAdderPack.mcpack)以顯示所有隱藏的結構方塊按鈕（僅安卓平台）。
+使用此[材質包](https://holoprint-mc.github.io/exportbutton)以顯示所有隱藏的結構方塊按鈕（僅安卓平台）。
 
 ## 這盔甲架不顯示東西誒！
 首先，你可以嘗試將所有其他資源包關閉，並保證投影材質包是唯一已啟用的資源包。

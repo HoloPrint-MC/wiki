@@ -16,7 +16,7 @@ HoloPrint also works in Education Edition.
 ## Does HoloPrint disable achievements?
 No, HoloPrint does not disable achievements.
 ## I can't find the “Export” button...
-Use this [helper resource pack](https://github.com/SuperLlama88888/holoprint/raw/refs/heads/main/assets/structureBlockButtonAdderPack.mcpack) to show all Structure Block buttons.  
+Use this [helper resource pack](https://holoprint-mc.github.io/exportbutton) to show all Structure Block buttons.  
 This is because the “Export” button is hidden by default on all platforms except desktop.
 ## The armour stand doesn't show the hologram
 First, try disabling all other global resources and any resource packs applied on worlds, so the HoloPrint resource pack is the only resource pack applied.  

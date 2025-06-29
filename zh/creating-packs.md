@@ -1,6 +1,6 @@
 # 創建材質包 Creating packs
 > [!TIP]
-> 請使用[此材質包](https://github.com/SuperLlama88888/holoprint/raw/refs/heads/main/assets/structureBlockButtonAdderPack.mcpack) 以強制顯示安卓裝置上默認隱藏的結構輸出按鈕
+> 請使用[此材質包](https://holoprint-mc.github.io/exportbutton) 以強制顯示安卓裝置上默認隱藏的結構輸出按鈕
 1. 在一個創造模式世界中使用 `/give @s structure_block` 命令取得結構方塊，並輸出 `.mcstructure` 文件
 ![Give Structure Block command](/assets/giveStructureBlockCommand.png)  
 ![Structure Block exporting](/assets/structureBlockExporting.png)
