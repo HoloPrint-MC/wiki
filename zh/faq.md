@@ -3,10 +3,12 @@
 > 若你找不到想要的解答，你可以在[討論](https://github.com/SuperLlama88888/holoprint/discussions/new?category=q-a)中提出
 
 ## HoloPrint的運作平台
-你可以在電腦（Windows/ Linux/ Mac）與安卓裝置享受完整的 HoloPrint 功能。
-HoloPrint fully works on PC (Windows/Linux/Mac) and Android.
-iOS裝置上的結構輸出功能被蘋果禁止，但你依然可以通過傳送結構文件（.mcstructure）到你的裝置上來製作投影材質包。
+你可以在電腦（Windows/ Linux/ Mac）、安卓與 iOS/ iPadOS 裝置享受完整的 HoloPrint 功能。
+
+Note that on iOS/iPadOS, due to Apple's restrictions, you will have to [follow separate instructions](/creating-packs#ios-ipados) to use your structures.
+
 HoloPrint works on Safari 16.4 and later.
+
 HoloPrint 未在主機平台上進行任何測試。
 
 ## HoloPrint的運作版本

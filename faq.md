@@ -2,9 +2,9 @@
 > [!TIP]
 > If your question isn't here, feel free to [create a discussion](https://github.com/SuperLlama88888/holoprint/discussions/new?category=q-a).
 ## What platforms does HoloPrint work on?
-HoloPrint fully works on PC (Windows/Linux/Mac) and Android.
+HoloPrint fully works on Android, PC (Windows/Linux/Mac) and iOS/iPadOS.
 
-On iOS, you are unable to export structure files from Structure Blocks due to Apple's restrictions; however, you will be able to create and use a HoloPrint resource pack if you send a structure file to your iOS device.
+Note that on iOS/iPadOS, due to Apple's restrictions, you will have to [follow separate instructions](/creating-packs#ios-ipados) to use your structures.
 
 HoloPrint works on Safari 16.4 and later.
 
