@@ -14,4 +14,4 @@ HoloPrint 主要以 JavaScript 與 JSON 編碼。
 
 HoloPrint也很好的運用了材質包中的不同功能，並允許更方便且客製化的使用，你可以通過訪問 [Hologram controls](/hologram-controls) 頁面以查詢更多。
 
-HoloPrint 中的大部分內容都是從頭開始開發的，只有一個文件（[`data/blockShapes.json`](https://github.com/SuperLlama88888/holoprint/blob/main/data/blockShapes.json)）是從 Structura 繼承，並且經過大量的修改。
+HoloPrint 中的大部分內容都是從頭開始開發的，只有一個文件（[`data/blockShapes.json`](https://github.com/SuperLlama88888/holoprint/blob/main/src/data/blockShapes.json)）是從 Structura 繼承，並且經過大量的修改。

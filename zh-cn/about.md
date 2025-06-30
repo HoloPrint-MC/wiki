@@ -14,4 +14,4 @@ HoloPrint 主要构建语言为 JavaScript 与 JSON 。
 
 HoloPrint也很好的运用了材质包中的不同功能，并允许更方便且客制化地使用，你可以通过访问 [Hologram controls](/hologram-controls) 页面以查询更多。
 
-HoloPrint 中的大部分内容都是从头开始开发的，只有一个文件（[`data/blockShapes.json`](https://github.com/SuperLlama88888/holoprint/blob/main/data/blockShapes.json)）是从 Structura 继承，并且经过大量的修改。
+HoloPrint 中的大部分内容都是从头开始开发的，只有一个文件（[`data/blockShapes.json`](https://github.com/SuperLlama88888/holoprint/blob/main/src/data/blockShapes.json)）是从 Structura 继承，并且经过大量的修改。

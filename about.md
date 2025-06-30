@@ -14,4 +14,4 @@ HoloPrint solves these issues by being written as a web app, meaning anybody wit
 
 Additionally, HoloPrint utilises more features of resource packs, allowing for a more enjoyable and customisable experience. You can learn about in-game features in the [Hologram controls](/hologram-controls) page.
 
-Most of HoloPrint was written from scratch; only one file ([`data/blockShapes.json`](https://github.com/SuperLlama88888/holoprint/blob/main/data/blockShapes.json)) was taken from Structura, and it has been heavily modified.
+Most of HoloPrint was written from scratch; only one file ([`data/blockShapes.json`](https://github.com/SuperLlama88888/holoprint/blob/main/src/data/blockShapes.json)) was taken from Structura, and it has been heavily modified.
