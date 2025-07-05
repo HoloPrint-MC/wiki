@@ -26,6 +26,17 @@ HoloPrint只是一個材質包，並不會影響到遊戲成就。
 首先，你可以嘗試將所有其他資源包關閉，並保證投影材質包是唯一已啟用的資源包。
 如果此問題依然持續，這就必然是一個bug了，請到[報告問題](https://github.com/SuperLlama88888/holoprint/issues/new/choose)頁面回報讓我們可以快速解決這個問題。
 
+## It doesn't work on a server
+This means a server resource pack is intefering with HoloPrint. When you join some servers for the first time, it says you have to download resource packs to play - these resource packs override the armour stand and break HoloPrint. If the server has Java-Bedrock crossplay, there's a high likelihood that it uses Geyser and specifically [GeyserOptionalPack](https://geysermc.org/wiki/other/geyseroptionalpack), a resource pack which modifies armour stands.
+
+To fix this, you have two options:
+1. Contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity.
+2. Modify the server resource pack for your Minecraft installation. Finding where they are stored depends on your device:
+   - If you are on Android, go to `/data/data/com.mojang.minecraftpe/cache/minecraftpe/packcache/resource/`
+   - If you are on Windows, go to `C:\Users\...\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalCache\minecraftpe\packcache\resource\`
+
+   Then look through all resource packs and if they contain a `entity/armor_stand.entity.json` file, delete that file. If you suspect GeyserOptionalPack is causing this issue, look for the resource pack which contains a `developer_documentation.md` file.
+
 ## 遊戲內控制沒反應啊！
 很大的機會是麻將的鍋，主要是因為一些「可附著模型」被渲染時候導致的，這些包括客製化的3D模型包括盔甲架、鞘翅、三叉戟、盾牌和弓等等。
 你可以通過禁用左上角的紙娃娃，和避免在進行遊戲內控制時到處亂看以避免這個問題。

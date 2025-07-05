@@ -23,6 +23,16 @@ This is because the “Export” button is hidden by default on all platforms ex
 ## The armour stand doesn't show the hologram
 First, try disabling all other global resources and any resource packs applied on worlds, so the HoloPrint resource pack is the only resource pack applied.  
 If this issue persists, that's definitely a bug! Please [create an issue](https://github.com/SuperLlama88888/holoprint/issues/new/choose) so this can be investigated and fixed.
+## It doesn't work on a server
+This means a server resource pack is intefering with HoloPrint. When you join some servers for the first time, it says you have to download resource packs to play - these resource packs override the armour stand and break HoloPrint. If the server has Java-Bedrock crossplay, there's a high likelihood that it uses Geyser and specifically [GeyserOptionalPack](https://geysermc.org/wiki/other/geyseroptionalpack), a resource pack which modifies armour stands.
+
+To fix this, you have two options:
+1. Contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity.
+2. Modify the server resource pack for your Minecraft installation. Finding where they are stored depends on your device:
+   - If you are on Android, go to `/data/data/com.mojang.minecraftpe/cache/minecraftpe/packcache/resource/`
+   - If you are on Windows, go to `C:\Users\...\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalCache\minecraftpe\packcache\resource\`
+
+   Then look through all resource packs and if they contain a `entity/armor_stand.entity.json` file, delete that file. If you suspect GeyserOptionalPack is causing this issue, look for the resource pack which contains a `developer_documentation.md` file.
 ## Player controls don't work
 This is most likely due to Bugrock, which can break player controls when certain models called "attachables" are rendered on-screen. Attachables are items with custom 3D models, including armour, elytra, trident, shield, bow, etc.
 
