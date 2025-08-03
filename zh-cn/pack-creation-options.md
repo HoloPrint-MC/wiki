@@ -6,11 +6,11 @@ HoloPrint提供一系列不同的选项，助你客製化你的材质包。
 控制投影中幽灵方块的大小，100%代表与正常方块大小相同，但容易导致渲染时的闪烁。
 
 ### 材质 Textures
-#### 覆盖着色 Overlay tint
-若你想要在投影上加上一层著色，你可以修改着色颜色和能见度后在[游戏内开启](/hologram-controls#覆盖色调-toggle-overlay-tint)
-
 #### 边框 Outline
 幽灵方块的边框厚度、颜色与能见度都是可客制化的内容。
+
+#### 覆盖着色 Overlay tint
+若你想要在投影上加上一层著色，你可以修改着色颜色和能见度后在[游戏内开启](/hologram-controls#覆盖色调-toggle-overlay-tint)
 
 ### 游戏内控制 In-game controls
 [控制投影](/hologram-controls)的物品可以修改，并且可以让多个物品设为同一功能，也可以使用[Item tags](https://minecraft.wiki/w/Item_tag_(Bedrock_Edition))作控制之用。
@@ -29,17 +29,23 @@ Enables/Disables icons overlayed on the hologram control items representing how 
 Enables/Disables the labels displayed underneath the names of hologram control items.  
 ![Renamed control items](/assets/renamedControlItems.png)
 
-### 忽略方块 Ignored blocks
-输入在投影之中需要被忽略的方块ID，并用空格隔开
+### Mini display size
+Changes the size of the mini display when you're looking at a particular layer.
 
 ### 进阶控制 Advanced
+#### Coordinate lock
+_More info: [Coordinate lock](/coordinate-lock)_
+
+This option allows you to lock holograms to specific coordinates.
 #### Initial offset
-Controls the initial offset of the hologram from the armour stand, in X/Y/Z coordinates. Useful with large structures.
+Controls the initial offset of the hologram from the armour stand, in X/Y/Z coordinates. Useful with large structures. Incompatible with coordinate lock.
 #### 备份栏数量 Backup slot count
 控制储存投影设置[储存投影设置](/hologram-controls#储存设定-save-hologram-settings)的储存栏位数量
 #### Control item texture scale
 If you play with a non-power-of-two resource pack (this means anything that isn't 8x, 16x, 32x, 64x, etc.), the [retextured control items](#retexture-control-items) can cause the original item textures to be distorted. If this happens, try changing the control item texture scale to 2, 4, etc. It will cause a slightly higher pack size.
 
+#### 忽略方块 Ignored blocks
+输入在投影之中需要被忽略的方块ID，并用空格隔开
 #### 透明度模式 Opacity mode
 若设定为 `In-game controls` 则开启游戏内[调整透明度](/hologram-controls#更改透明度-change-transparency)的功能
 若设定为 `Single option` 则无法在游戏内调整透明度，并能减少材质包大小和有可能减低卡顿

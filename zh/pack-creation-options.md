@@ -6,11 +6,11 @@ HoloPrint提供一系列不同的選項，助你客製化你的材質包。
 控制投影中幽靈方塊的大小，100%代表與正常方塊大小相同，但容易導致渲染時的閃爍。
 
 ### 材質 Textures
-#### 覆蓋著色 Overlay tint
-若你想要在投影上加上一層著色，你可以修改著色顏色和能見度後在[遊戲內開啟](/hologram-controls#覆蓋色調-Toggle-overlay-tint)
-
 #### 邊框 Outline
 幽靈方塊的邊框厚度、顏色與能見度都是可客製化的內容。
+
+#### 覆蓋著色 Overlay tint
+若你想要在投影上加上一層著色，你可以修改著色顏色和能見度後在[遊戲內開啟](/hologram-controls#覆蓋色調-Toggle-overlay-tint)
 
 ### 遊戲內控制 In-game controls
 [控制投影](/hologram-controls)的物品可以修改，並且可以讓多個物品設為同一功能，也可以使用[Item tags](https://minecraft.wiki/w/Item_tag_(Bedrock_Edition))作控制之用。
@@ -29,16 +29,22 @@ Enables/Disables icons overlayed on the hologram control items representing how 
 Enables/Disables the labels displayed underneath the names of hologram control items.  
 ![Renamed control items](/assets/renamedControlItems.png)
 
-### 忽略方塊 Ignored blocks
-輸入在投影之中需要被忽略的方塊ID，並用空格隔開
+### Mini display size
+Changes the size of the mini display when you're looking at a particular layer.
 
 ### 進階控制 Advanced
+#### Coordinate lock
+_More info: [Coordinate lock](/coordinate-lock)_
+
+This option allows you to lock holograms to specific coordinates.
 #### Initial offset
-Controls the initial offset of the hologram from the armour stand, in X/Y/Z coordinates. Useful with large structures.
+Controls the initial offset of the hologram from the armour stand, in X/Y/Z coordinates. Useful with large structures. Incompatible with coordinate lock.
 #### 備份欄數量 Backup slot count
 控制儲存投影設置[儲存投影設置](/hologram-controls#儲存設定-Save-hologram-settings)的儲存欄位數量
 #### Control item texture scale
 If you play with a non-power-of-two resource pack (this means anything that isn't 8x, 16x, 32x, 64x, etc.), the [retextured control items](#retexture-control-items) can cause the original item textures to be distorted. If this happens, try changing the control item texture scale to 2, 4, etc. It will cause a slightly higher pack size.
+#### 忽略方塊 Ignored blocks
+輸入在投影之中需要被忽略的方塊ID，並用空格隔開
 #### 透明度模式 Opacity mode
 若設定為 `In-game controls` 則開啟遊戲內[調整透明度](/hologram-controls#change-transparency)的功能
 若設定為 `Single option` 則無法在遊戲內調整透明度，並能減少材質包大小和有可能減低卡頓

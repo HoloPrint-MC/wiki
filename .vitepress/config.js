@@ -90,7 +90,7 @@ const additionalLanguages = {
 const sidebarConfig = {
 	documentRootPath: "/",
 	useTitleFromFileHeading: true,
-	manualSortFileNameByPriority: ["about.md", "creating-packs.md", "pack-creation-options.md", "hologram-controls.md", "punch-to-activate.md", "contributing.md", "adding-translations.md", "faq.md"],
+	manualSortFileNameByPriority: ["about.md", "creating-packs.md", "pack-creation-options.md", "hologram-controls.md", "punch-to-activate.md", "coordinate-lock.md", "contributing.md", "adding-translations.md", "faq.md"],
 	excludePattern: ["README.md"]
 };
 
