@@ -1,7 +1,7 @@
 # Coordinate lock
 HoloPrint allows you to lock your holograms to specific coordinates, meaning that no matter where the armour stand is placed, the hologram will always be at the same position.
 
-Holograms using "Coordinate lock" will always be facing the same direction as they did in the world where they were exported.
+By default, holograms using "Coordinate lock" will always be facing the same direction as they did in the world where they were exported. However, you can configure the holograms to face specific directions in 90 degree intervals. Note that, regardless of rotation, the corner of the structure will always be in the same position.
 
 ## Enabling coordinate lock
 On the pack creation screen, enable to _Settings_ > _Advanced_ > _Coordinate Lock_. You will now be able to enter the coordinates for each structure to be locked to.
