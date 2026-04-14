@@ -20,3 +20,8 @@
 main.main img {
 	margin: auto;
 }
+table {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: max-content;
+}

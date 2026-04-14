@@ -37,6 +37,10 @@ To fix this, you have two options:
 This is most likely due to Bugrock, which can break player controls when certain models called "attachables" are rendered on-screen. Attachables are items with custom 3D models, including armour, elytra, trident, shield, bow, etc.
 
 To avoid this, try disabling the paper doll in the top-left, and try looking around in random directions while performing the player control.
+
+If none of these work, you can always give the armour stand the control item and punch it to execute the action directly.
+## Player controls can lead to desync between players in multiplayer
+Unfortunately I haven't found a perfect solution for this yet. For a quick fix, try giving the armour stand the control item and punch it to execute the action. This **should** work.
 ## Saving the hologram didn't work
 Armour stands only save the hologram state *while* the save particles are showing. Although they will automatically try to save if you get far away, they won't automatically save if you're going through a portal or exiting the world. In that case, make sure to [save the hologram settings](/hologram-controls#save-hologram-settings) before going through a portal/leaving the world.
 
