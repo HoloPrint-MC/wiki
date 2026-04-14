@@ -4,7 +4,9 @@ import { generateSidebar } from "vitepress-sidebar";
 
 const navLinks = {
 	"Home": "/",
+	"About": "/about",
 	"Tutorial": "/creating-packs",
+	"FAQ": "/faq",
 	"Try it out": "https://holoprint-mc.github.io"
 };
 const additionalLanguages = {
@@ -13,7 +15,9 @@ const additionalLanguages = {
 		siteTitle: "HoloPrint 百科",
 		navLinks: {
 			"Home": "/",
+			"About": "/about",
 			"Tutorial": "/creating-packs",
+			"FAQ": "/faq",
 			"Try it out": "https://holoprint-mc.github.io"
 		},
 		outline: "On this page",
@@ -52,7 +56,9 @@ const additionalLanguages = {
 		siteTitle: "HoloPrint 维基百科",
 		navLinks: {
 			"Home": "/",
+			"About": "/about",
 			"Tutorial": "/creating-packs",
+			"FAQ": "/faq",
 			"Try it out": "https://holoprint-mc.github.io"
 		},
 		outline: "On this page",
