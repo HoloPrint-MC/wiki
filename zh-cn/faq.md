@@ -27,15 +27,9 @@ HoloPrint只是一个材质包，并不会影响到获得游戏成就。
 如果此问题依然持续，这就必然是一个bug了，请到[报告问题](https://github.com/SuperLlama88888/holoprint/issues/new/choose)页面回报让我们可以快速解决这个问题。
 
 ## It doesn't work on a server
-This means a server resource pack is intefering with HoloPrint. When you join some servers for the first time, it says you have to download resource packs to play - these resource packs override the armour stand and break HoloPrint. If the server has Java-Bedrock crossplay, there's a high likelihood that it uses Geyser and specifically [GeyserOptionalPack](https://geysermc.org/wiki/other/geyseroptionalpack), a resource pack which modifies armour stands.
+This means a server resource pack is interfering with HoloPrint. When you join some servers for the first time, it says you have to download resource packs to play - these resource packs override the armour stand and break HoloPrint. If the server has Java-Bedrock crossplay, there's a high likelihood that it uses Geyser and specifically [GeyserIntegratedPack](https://geysermc.org/wiki/other/geyserintegratedpack), a resource pack which modifies armour stands.
 
-To fix this, you have two options:
-1. Contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity.
-2. Modify the server resource pack for your Minecraft installation. Finding where they are stored depends on your device:
-   - If you are on Android, go to `/data/data/com.mojang.minecraftpe/cache/minecraftpe/packcache/resource/`
-   - If you are on Windows, go to `C:\Users\...\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalCache\minecraftpe\packcache\resource\`
-
-   Then look through all resource packs and if they contain a `entity/armor_stand.entity.json` file, delete that file. If you suspect GeyserOptionalPack is causing this issue, look for the resource pack which contains a `developer_documentation.md` file.
+To fix this, your only option is to contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity. Unfortunately Mojang have made it almost impossible to disable or modify server resource packs safely in newer versions.
 
 ## 游戏内控制没反应啊！
 很大的可能是麻将的锅，主要是因為一些「可附着模型」被渲染时候导致的，这些包括客制化的3D模型包括盔甲架、鞘翅、三叉戟、盾牌和弓等等。
