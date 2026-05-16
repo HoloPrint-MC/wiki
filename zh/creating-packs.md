@@ -1,5 +1,5 @@
 # 創建材質包 Creating packs
-## Android and Windows
+## Windows
 > [!TIP]
 > 請使用[此材質包](https://holoprint-mc.github.io/exportbutton) 以強制顯示安卓裝置上默認隱藏的結構輸出按鈕
 1. 在一個創造模式世界中使用 `/give @s structure_block` 命令取得結構方塊，並輸出 `.mcstructure` 文件
@@ -16,6 +16,13 @@
 
 4. 啟用你的材質包並在你的世界中放置盔甲架
 ![Placing armour stand](/assets/placingArmourStand.gif)
+
+## Android
+On Android versions 1.21.132 and above, you can't export structures from Structure Blocks due to Mojang being silly. Therefore you must first set Minecraft's storage location to "external" rather than the default "application" before creating the world you want to export the structure from. Once done, you can save structures to the world, and upload the world file with the same instructions as for iOS/iPadOS below.
+
+On earlier Android versions you should be able to follow the same instructions as for Windows above.
+
+Unfortunately I do not have detailed instructions for Android so you will have to experiment yourself. If you have more helpful instructions, please feel free to [update this page](https://github.com/HoloPrint-MC/wiki/edit/main/creating-packs.md).
 
 ## iOS/iPadOS
 On iOS/iPadOS, you can't export structures from Structure Blocks due to Apple's restrictions. However, you can save them to the world, and upload the world file.

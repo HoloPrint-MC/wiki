@@ -1,7 +1,5 @@
 # Creating packs
-## Android and Windows
-> [!TIP]
-> On Android the Structure Block export button is hidden; please use [this pack](https://holoprint-mc.github.io/exportbutton) to add it back.
+## Windows
 1. In a creative world, use a Structure Block to export a `.mcstructure` file. To get a Structure Block, run the command `/give @s structure_block`.  
 ![Give Structure Block command](/assets/giveStructureBlockCommand.png)  
 ![Structure Block exporting](/assets/structureBlockExporting.png)
@@ -13,6 +11,13 @@
 ![Resource pack active](/assets/resourcePackActive.png)
 4. Apply your resource pack in your survival world/server and place an armour stand down.  
 ![Placing armour stand](/assets/placingArmourStand.gif)
+
+## Android
+On Android versions 1.21.132 and above, you can't export structures from Structure Blocks due to Mojang being silly. Therefore you must first set Minecraft's storage location to "external" rather than the default "application" before creating the world you want to export the structure from. Once done, you can save structures to the world, and upload the world file with the same instructions as for iOS/iPadOS below.
+
+On earlier Android versions you should be able to follow the same instructions as for Windows above.
+
+Unfortunately I do not have detailed instructions for Android so you will have to experiment yourself. If you have more helpful instructions, please feel free to [update this page](https://github.com/HoloPrint-MC/wiki/edit/main/creating-packs.md).
 
 ## iOS/iPadOS
 On iOS/iPadOS, you can't export structures from Structure Blocks due to Apple's restrictions. However, you can save them to the world, and upload the world file.
