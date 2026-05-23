@@ -26,7 +26,14 @@ If this issue persists, that's definitely a bug! Please [create an issue](https:
 ## It doesn't work on a server
 This means a server resource pack is interfering with HoloPrint. When you join some servers for the first time, it says you have to download resource packs to play - these resource packs override the armour stand and break HoloPrint. If the server has Java-Bedrock crossplay, there's a high likelihood that it uses Geyser and specifically [GeyserIntegratedPack](https://geysermc.org/wiki/other/geyserintegratedpack), a resource pack which modifies armour stands.
 
-To fix this, your only option is to contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity. Unfortunately Mojang have made it almost impossible to disable or modify server resource packs safely in newer versions.
+To fix this, try downloading the [HoloPrint Fixer for Geyser](https://holoprint-mc.github.io/geyserfix) and then adding it to your global resources. This pack will override GeyserIntegratedPack which means that it won't modify the armour stands, allowing all HoloPrint packs to work as normal. For more information, visit [the GitHub page](https://github.com/HoloPrint-MC/geyserfix).
+
+> [!NOTE]
+> Big thanks to [lightningimj](https://github.com/lightningimj) for discovering this fix!
+
+If this doesn't work, and you are certain that the server uses Geyser, please [raise an issue](https://github.com/HoloPrint-MC/geyserfix/issues/new).
+
+If your server doesn't use Geyser, your only option is to contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity. Unfortunately Mojang have made it almost impossible to disable or modify server resource packs safely in newer versions.
 ## Player controls don't work
 This is most likely due to Bugrock, which can break player controls when certain models called "attachables" are rendered on-screen. Attachables are items with custom 3D models, including armour, elytra, trident, shield, bow, etc.
 
