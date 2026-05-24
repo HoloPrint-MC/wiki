@@ -18,11 +18,28 @@
 ![Placing armour stand](/assets/placingArmourStand.gif)
 
 ## Android
-On Android versions 1.21.132 and above, you can't export structures from Structure Blocks due to Mojang being silly. Therefore you must first set Minecraft's storage location to "external" rather than the default "application" before creating the world you want to export the structure from. Once done, you can save structures to the world, and upload the world file with the same instructions as for iOS/iPadOS below.
+On Android versions 1.21.130 and above, you can't export structures from Structure Blocks due to Mojang being silly. As a result, the process is more complicated:
 
-On earlier Android versions you should be able to follow the same instructions as for Windows above.
+1. Change the file storage location to `External` instead of the default `Application` location. If you don’t do this, your worlds won’t show up in the next steps.
 
-Unfortunately I do not have detailed instructions for Android so you will have to experiment yourself. If you have more helpful instructions, please feel free to [update this page](https://github.com/HoloPrint-MC/wiki/edit/main/creating-packs.md).
+> [!WARNING]
+> Any worlds you already created in `Application` storage won’t show up after switching to `External`. Currently, there’s no way to transfer worlds from `Application` storage to `External` storage unless you buy a Minecraft Realms subscription (curse Minecraft Marketplace Edition), upload your world there, and download it again.
+> Don’t worry though, your old worlds won’t be deleted. They’ll still be there if you switch the file storage back to `Application` later.
+
+2. Create a folder anywhere on your device where you’ll save the world files.
+3. Create the world and build the structure. (Yes, you’ll need to rebuild it if you created the world before changing the file storage location to `External`.)
+4. Use a Structure Block to save the structure inside the world, then leave the world so it saves properly.
+5. Go to: `Android` > `Data` > `com.mojang.minecraftpe` > `files` > `games` > `com.mojang` > `minecraftWorlds`
+6. Tap the 3 dots in the top-right corner and set `Sort by` to `Modified (newest first)`. This makes the latest saved world appear first, which helps because world folder names are randomized.
+7. Open the world you want. Tap the 3 dots in the top-right corner, select `Select all`, then tap the 3 dots again and choose `Copy to`.
+8. Navigate to the folder you created in step 2 and paste the files there. You’ll be redirected back to the original world folder. Open the db folder, select all files again, tap `Copy to`, then go to the folder where you pasted the world files earlier. Open the db folder there (it should be empty), and paste the files into it.
+9. Go back to the folder where you pasted the world files. Select all the folders and compress them into a `.zip` file.
+10. Upload that `.zip` file to HoloPrint. If everything was done correctly, your structure should appear there. If it doesn't... curse Mojang Studios. :) Then make sure you did all the steps correctly.
+
+On earlier Android versions you should be able to follow the same instructions as for Windows above. Note that in some versions just before 1.21.130, you may be unable to export from structure blocks but able to export the world as a `.mctemplate` from the world settings by using [this resource pack](https://github.com/user-attachments/files/24695202/ImportExportButtonUnhider_v1.0.0.mcpack.zip). You can then change the file extension to `.mcworld` and upload it to HoloPrint. This will not work on Ore UI.
+
+> [!NOTE]
+> Big thanks to [KITTUradiates](https://github.com/KITTUradiates) for providing the instructions for Android!
 
 ## iOS/iPadOS
 On iOS/iPadOS, you can't export structures from Structure Blocks due to Apple's restrictions. However, you can save them to the world, and upload the world file.
