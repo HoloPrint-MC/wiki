@@ -13,8 +13,22 @@
 ![Placing armour stand](/assets/placingArmourStand.gif)
 
 ## Android
-On Android versions 1.21.130 and above, you can't export structures from Structure Blocks due to Mojang being silly. As a result, the process is more complicated:
+On Android versions 1.21.130 and above, you can't export structures from Structure Blocks due to Mojang being silly. As a result, the process is more complicated. The easier solution is to use the third-party app LeviLauncher, but if you're unable to or uncomfortable with installing an external app, there's an alternative tutorial below.
 
+### Base setup - required for all methods
+1. Instead of exporting your structure from the Structure Block UI, give it a name then press `Save`. Remember this name!
+2. Close and save your world.
+
+### Using LeviLauncher
+1. Install LeviLauncher by [downloading the latest release](https://github.com/LiteLDev/LeviLaunchroid/releases) then opening the `.apk`.
+2. Open up LeviLauncher and complete any setup required.
+3. Open `Worlds`, find the world you built your structure in, then press `Extract Structures`.
+4. Once you've extracted the structure file (ending with `.mcstructure`), you can upload it to HoloPrint as usual, following the same instructions as for Windows above.
+
+> [!NOTE]
+> Thanks to [sigmahfuj](https://github.com/sigmahfuj) for telling me about using LeviLauncher for extracting structures!
+
+### Alternative method - no LeviLauncher
 1. Change the file storage location to `External` instead of the default `Application` location. If you don’t do this, your worlds won’t show up in the next steps.
 
 > [!WARNING]
@@ -29,12 +43,13 @@ On Android versions 1.21.130 and above, you can't export structures from Structu
 7. Open the world you want. Tap the 3 dots in the top-right corner, select `Select all`, then tap the 3 dots again and choose `Copy to`.
 8. Navigate to the folder you created in step 2 and paste the files there. You’ll be redirected back to the original world folder. Open the db folder, select all files again, tap `Copy to`, then go to the folder where you pasted the world files earlier. Open the db folder there (it should be empty), and paste the files into it.
 9. Go back to the folder where you pasted the world files. Select all the folders and compress them into a `.zip` file.
-10. Upload that `.zip` file to HoloPrint. If everything was done correctly, your structure should appear there. If it doesn't... curse Mojang Studios. :) Then make sure you did all the steps correctly.
-
-On earlier Android versions you should be able to follow the same instructions as for Windows above. Note that in some versions just before 1.21.130, you may be unable to export from structure blocks but able to export the world as a `.mctemplate` from the world settings by using [this resource pack](https://github.com/user-attachments/files/24695202/ImportExportButtonUnhider_v1.0.0.mcpack.zip). You can then change the file extension to `.mcworld` and upload it to HoloPrint. This will not work on Ore UI.
+10. Upload that `.zip` file to HoloPrint with the `Extract from world` option. If everything was done correctly, your structure should appear there. If it doesn't... curse Mojang Studios. :) Then make sure you did all the steps correctly.
 
 > [!NOTE]
-> Big thanks to [KITTUradiates](https://github.com/KITTUradiates) for providing the instructions for Android!
+> Big thanks to [KITTUradiates](https://github.com/KITTUradiates) for providing these instructions for Android!
+
+### Earlier Minecraft versions on Android
+On earlier Android versions you should be able to follow the same instructions as for Windows above. Note that in some versions just before 1.21.130, you may be unable to export from structure blocks but able to export the world as a `.mctemplate` from the world settings by using [this resource pack](https://github.com/user-attachments/files/24695202/ImportExportButtonUnhider_v1.0.0.mcpack.zip). You can then change the file extension to `.mcworld` and upload it to HoloPrint with the `Extract from world` option. This will not work on Ore UI.
 
 ## iOS/iPadOS
 On iOS/iPadOS, you can't export structures from Structure Blocks due to Apple's restrictions. However, you can save them to the world, and upload the world file.
