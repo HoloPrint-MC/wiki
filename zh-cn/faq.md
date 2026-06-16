@@ -42,6 +42,13 @@ If your server doesn't use Geyser, your only option is to contact the server own
 很大的可能是麻将的锅，主要是因為一些「可附着模型」被渲染时候导致的，这些包括客制化的3D模型包括盔甲架、鞘翅、三叉戟、盾牌和弓等等。
 你可以通过禁用左上角的纸娃娃，和避免在进行游戏内控制时到处乱看以避免这个问题。
 
+## The hologram disappears when I go far away
+Unfortunately, Bedrock Edition will automatically hide entities that are more than 70 blocks away. This means that if you are more than 70 blocks away from the armour stand, the entire hologram will disappear.
+
+As a workaround, try the following solutions:
+- Place the armour stand closer to the center of the structure, then [move the hologram](/hologram-controls#移动投影-move-hologram) to the original position
+- Use [coordinate lock](/coordinate-lock) to place the hologram in a fixed position, allowing you to place the armour stand wherever you want since the hologram will always be in the same position
+
 ## 游戏内保存投影状态坏了！
 投影状态保存只会在保存粒子出现的同时进行保存，即便他们会在你远离的时候自动保存，却不能在进入传送门或者离开游戏时候保存，因此请保证你在进行这些动作前手动[保存投影状态](/hologram-controls#save-hologram-settings)
 

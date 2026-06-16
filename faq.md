@@ -40,6 +40,12 @@ This is most likely due to Bugrock, which can break player controls when certain
 To avoid this, try disabling the paper doll in the top-left, and try looking around in random directions while performing the player control.
 
 If none of these work, you can always give the armour stand the control item and punch it to execute the action directly.
+## The hologram disappears when I go far away
+Unfortunately, Bedrock Edition will automatically hide entities that are more than 70 blocks away. This means that if you are more than 70 blocks away from the armour stand, the entire hologram will disappear.
+
+As a workaround, try the following solutions:
+- Place the armour stand closer to the center of the structure, then [move the hologram](/hologram-controls#move-hologram) to the original position
+- Use [coordinate lock](/coordinate-lock) to place the hologram in a fixed position, allowing you to place the armour stand wherever you want since the hologram will always be in the same position
 ## Player controls can lead to desync between players in multiplayer
 Unfortunately I haven't found a perfect solution for this yet. For a quick fix, try giving the armour stand the control item and punch it to execute the action. This **should** work.
 ## Saving the hologram didn't work
