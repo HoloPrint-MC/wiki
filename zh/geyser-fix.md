@@ -19,7 +19,9 @@ Huge credit must go to [lightningimj](https://github.com/lightningimj) for [disc
 ![Deleting GeyserIntegratedPack](/assets/cachedDataGeyserIntegratedPackDelete.png)
 
 ![Confirming deletion](/assets/cachedDataGeyserIntegratedPackDeleteConfirmation.png)
+
 4. Go to https://holoprint-mc.github.io/geyserfix, and find the version which matches your version of GeyserIntegratedPack that you wrote down earlier. If you can't find one for your version, first [check if GeyserIntegratedPack was updated within the last 24 hours](https://github.com/GeyserMC/GeyserIntegratedPack/commits). If so, the new version should be automatically generated soon. If not, please [create an issue](https://github.com/HoloPrint-MC/geyserfix/issues/new?title=No+release+for+version+1.x.x).
+
 5. Download the required version, and import it into Minecraft. You can then enable it in your global resources, along with your HoloPrint packs. HoloPrint should then work fine inside your server!
 
 > [!NOTE]
