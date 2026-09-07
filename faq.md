@@ -26,7 +26,7 @@ If this issue persists, that's definitely a bug! Please [create an issue](https:
 ## It doesn't work on a server
 This means a server resource pack is interfering with HoloPrint. When you join some servers for the first time, it says you have to download resource packs to play - these resource packs override the armour stand and break HoloPrint. If the server has Java-Bedrock crossplay, there's a high likelihood that it uses Geyser and specifically [GeyserIntegratedPack](https://geysermc.org/wiki/other/geyserintegratedpack), a resource pack which modifies armour stands.
 
-To fix this, try downloading the [HoloPrint Fixer for Geyser](https://holoprint-mc.github.io/geyserfix) and then adding it to your global resources. This pack will override GeyserIntegratedPack which means that it won't modify the armour stands, allowing all HoloPrint packs to work as normal. For more information, visit [the GitHub page](https://github.com/HoloPrint-MC/geyserfix).
+To fix this, try downloading the [HoloPrint Fixer for Geyser](https://holoprint-mc.github.io/geyserfix) and then adding it to your global resources. This pack will override GeyserIntegratedPack which means that it won't modify the armour stands, allowing all HoloPrint packs to work as normal. For more information, visit [the wiki page](/geyser-fix) or [the GitHub page](https://github.com/HoloPrint-MC/geyserfix).
 
 > [!NOTE]
 > Big thanks to [lightningimj](https://github.com/lightningimj) for discovering this fix!
