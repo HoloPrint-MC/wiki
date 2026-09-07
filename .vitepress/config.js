@@ -1,3 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
+import url from "node:url";
 import { defineConfig } from "vitepress";
 import { withMermaid } from "vitepress-plugin-mermaid";
 import { generateSidebar } from "vitepress-sidebar";
@@ -99,6 +102,25 @@ const sidebarConfig = {
 	manualSortFileNameByPriority: ["about.md", "creating-packs.md", "pack-creation-options.md", "hologram-controls.md", "punch-to-activate.md", "geyser-fix.md", "coordinate-lock.md", "contributing.md", "adding-translations.md", "faq.md"],
 	excludePattern: ["README.md"]
 };
+
+// untranslated pages are copied over from the root folder to each translation
+const FALLBACK_MARKER = "<!-- Copied over from the English source, do not edit here! -->";
+const projectRoot = path.dirname(path.dirname(url.fileURLToPath(import.meta.url)));
+const additionalLanguageNames = Object.keys(additionalLanguages);
+const copiedFallbacks = [];
+fs.readdirSync(projectRoot).forEach(file => {
+	if(file.endsWith(".md")) {
+		additionalLanguageNames.forEach(locale => {
+			const dest = path.join(projectRoot, locale, file);
+			if(!fs.existsSync(dest) || fs.readFileSync(dest, "utf8").includes(FALLBACK_MARKER)) {
+				fs.copyFileSync(path.join(projectRoot, file), dest);
+				fs.appendFileSync(dest, `\n${FALLBACK_MARKER}`);
+				copiedFallbacks.push(dest);
+			}
+		});
+	}
+});
+process.once("exit", removeFallbackCopies);
 
 export default defineConfig(withMermaid({
 	title: "HoloPrint Wiki",
@@ -211,7 +233,8 @@ export default defineConfig(withMermaid({
 	lastUpdated: true,
 	sitemap: {
 		hostname: "https://holoprint-mc.github.io/wiki/"
-	}
+	},
+	buildEnd: removeFallbackCopies
 }));
 
 function generateNav(navLinks, lang) {
@@ -223,4 +246,11 @@ function generateNav(navLinks, lang) {
 		}
 	}
 	return Object.entries(navLinks).map(([text, link]) => ({ text, link }));
+}
+function removeFallbackCopies() {
+	copiedFallbacks.splice(0).forEach(file => {
+		if(fs.readFileSync(file, "utf8").includes(FALLBACK_MARKER)) {
+			fs.rmSync(file, { force: true });
+		}
+	});
 }
