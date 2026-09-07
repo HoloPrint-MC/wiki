@@ -36,7 +36,7 @@ To fix this, try downloading the [HoloPrint Fixer for Geyser](https://holoprint-
 
 If this doesn't work, and you are certain that the server uses Geyser, please [raise an issue](https://github.com/HoloPrint-MC/geyserfix/issues/new).
 
-If your server doesn't use Geyser, your only option is to contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity. Unfortunately Mojang have made it almost impossible to disable or modify server resource packs safely in newer versions.
+If your server doesn't use Geyser, you can try [leash knot mode](/leash-knot-mode). If this doesn't work, your only option is to contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity. Unfortunately Mojang have made it almost impossible to disable or modify server resource packs safely in newer versions.
 
 ## 遊戲內控制沒反應啊！
 很大的機會是麻將的鍋，主要是因為一些「可附著模型」被渲染時候導致的，這些包括客製化的3D模型包括盔甲架、鞘翅、三叉戟、盾牌和弓等等。

@@ -33,7 +33,7 @@ To fix this, try downloading the [HoloPrint Fixer for Geyser](https://holoprint-
 
 If this doesn't work, and you are certain that the server uses Geyser, please [raise an issue](https://github.com/HoloPrint-MC/geyserfix/issues/new).
 
-If your server doesn't use Geyser, your only option is to contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity. Unfortunately Mojang have made it almost impossible to disable or modify server resource packs safely in newer versions.
+If your server doesn't use Geyser, you can try [leash knot mode](/leash-knot-mode). If this doesn't work, your only option is to contact the server owner(s) and ask them to remove any server resource packs that modify the armour stand entity. Unfortunately Mojang have made it almost impossible to disable or modify server resource packs safely in newer versions.
 ## Player controls don't work
 This is most likely due to Bugrock, which can break player controls when certain models called "attachables" are rendered on-screen. Attachables are items with custom 3D models, including armour, elytra, trident, shield, bow, etc.
 
